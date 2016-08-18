@@ -1,2 +1,2 @@
 # DiazYnez.GitHub.io
-http://diazynez.github.io
+https://diazynez.github.io
