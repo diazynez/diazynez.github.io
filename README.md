@@ -1,2 +1,2 @@
-# diazynez.github.io
-Click → http://diazynez.github.io
+# DiazYnez.GitHub.io
+http://diazynez.github.io
