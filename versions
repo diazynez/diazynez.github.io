@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<versions>
+  <fighter>
+    <aizen_ultimate>0.1</aizen_ultimate>
+    <gin_dz>0.1</gin_dz>
+    <kon>0.1</kon>
+    <rukia_awakening>0.1</rukia_awakening>
+    <shinji>0.1</shinji>
+    <soifon>0.1</soifon>
+    <tousen_dz>0.1</tousen_dz>
+    <uryuu_zero>0.1</uryuu_zero>
+  </fighter>
+  <assist>
+    <byakuya>0.1</byakuya>
+    <gin>0.1</gin>
+    <shinji>0.1</shinji>
+    <unohana>0.1</unohana>
+    <yamamoto>0.1</yamamoto>
+  </assist>
+  <map>
+  </map>
+  <extra>
+    <HD300K>0.1</HD300K>
+    <slime>0.1</slime>
+    <gaara>0.1</gaara>
+    <sōzōsaisei>0.1</sōzōsaisei>
+    <hōgyoku>0.1</hōgyoku>
+    <shimon>0.1</shimon>
+    <saigonogetsugatenshō>0.1</saigonogetsugatenshō>
+  </extra>
+</versions>
