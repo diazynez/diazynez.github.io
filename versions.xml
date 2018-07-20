@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<versions>
+<?xml version="1.0" encoding="utf-8" ?>
+<VersionsList>
   <fighter>
     <aizen_ultimate>0.1</aizen_ultimate>
     <gin_dz>0.1</gin_dz>
@@ -28,4 +28,4 @@
     <shimon>0.1</shimon>
     <saigonogetsugatenshō>0.1</saigonogetsugatenshō>
   </extra>
-</versions>
+</VersionsList>
