@@ -1,8 +1,8 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-<meta charset="UTF-8">
-<title>Ynez·Diaz</title>
+<meta charset="UTF-8" />
+<title>这里是氺的主页！</title>
 <style>
 body {
   font-family: 'Raleway', sans-serif;
@@ -17,7 +17,6 @@ body {
   background: radial-gradient(ellipse at bottom, #1b2735, #090a0f);
   font-weight: 300;
 }
-
 .all {
   display: flex;
   -webkit-perspective: 10px;
@@ -32,7 +31,6 @@ body {
   -webkit-transform-style: preserve-3d;
           transform-style: preserve-3d;
 }
-
 .all:hover {
   -webkit-perspective: 1000px;
           perspective: 1000px;
@@ -50,7 +48,6 @@ body {
 .all:hover .explainer {
   opacity: 0;
 }
-
 .left, .center, .right, .lefter, .righter {
   width: 200px;
   height: 150px;
@@ -74,7 +71,6 @@ body {
   box-shadow: 0 0 30px 10px rgba(100, 100, 255, 0.6);
   background-color: #ccf;
 }
-
 .text {
   -webkit-transform: translateY(30px);
           transform: translateY(30px);
@@ -87,36 +83,30 @@ body {
   color: #fff;
   text-shadow: 0 0 5px rgba(100, 100, 255, 0.6);
 }
-
 .lefter {
   -webkit-transform: translateX(-60px) translateZ(-50px) rotateY(-10deg);
           transform: translateX(-60px) translateZ(-50px) rotateY(-10deg);
-  background-image: url(/img/organization-512.png);
+  background-image: url(https://s2.ax1x.com/2019/08/05/eg06SA.png);
 }
-
 .left {
   -webkit-transform: translateX(-30px) translateZ(-25px) rotateY(-5deg);
           transform: translateX(-30px) translateZ(-25px) rotateY(-5deg);
-  background-image: url(/img/creative_draw-512.png);
+  background-image: url(https://s2.ax1x.com/2019/08/05/eg0sWd.png);
 }
-
 .center {
   opacity: 1;
-  background-image: url(/img/app_window-512.png);
+  background-image: url(https://s2.ax1x.com/2019/08/05/eg0rJH.png);
 }
-
 .right {
   -webkit-transform: translateX(30px) translateZ(-25px) rotateY(5deg);
           transform: translateX(30px) translateZ(-25px) rotateY(5deg);
-  background-image: url(/img/cloud_weather-512.png);
+  background-image: url(https://s2.ax1x.com/2019/08/05/eg0cQI.png);
 }
-
 .righter {
   -webkit-transform: translateX(60px) translateZ(-50px) rotateY(10deg);
           transform: translateX(60px) translateZ(-50px) rotateY(10deg);
-  background-image: url(/img/search-512.png);
+  background-image: url(https://s2.ax1x.com/2019/08/05/eg0DFe.png);
 }
-
 .explainer {
   font-weight: 300;
   font-size: 2rem;
@@ -132,7 +122,6 @@ body {
   justify-content: center;
   align-items: center;
 }
-
 .ref {
   background-color: #000;
   background-image: linear-gradient(to bottom, #d80, #c00);
@@ -153,21 +142,21 @@ body {
 </head>
 <body>
 <div class="all">
-	<div class="lefter" onclick="window.open('javascript:void(0);','_self');">
-		<div class="text">Sub1</div>
+	<div class="lefter" onclick="window.location = 'http://bbs.5dplay.net/forum.php'">
+		<div class="text">5DPLAY官方游戏论坛</div>
 	</div>
-	<div class="left">
-		<div class="text">Sub2</div>
+	<div class="left" onclick="window.location = 'https://space.bilibili.com/86159801'">
+		<div class="text">氺的B站个人空间</div>
 	</div>
-	<div class="center">
+	<div class="center" onclick="window.location = 'http://diazynez.lofter.com/'">
 		<div class="explainer"><span>给我看过来!</span></div>
-		<div class="text">Sub3</div>
+		<div class="text">氺的Lofter乐乎</div>
 	</div>
-	<div class="right">
-		<div class="text">Sub4</div>
+	<div class="right" onclick="window.location = './api/index.html'">
+		<div class="text">人物辅助API接口帮助文档</div>
 	</div>
-	<div class="righter">
-		<div class="text">Sub5</div>
+	<div class="righter" onclick="window.location = 'javascript:void(0);'">
+		<div class="text">未知的领域</div>
 	</div>
 </div>
 <canvas id="canvas" width="520" height="520" style="display: table;margin: 0 auto;z-index:-1;position:absolute;"></canvas>
