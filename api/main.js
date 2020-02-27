@@ -19,7 +19,7 @@ function setNav (pageType)
 	{
 	document.writeln("					<li><a href=\'index.html\'><i class=\'fi-home\'></i> 首页</a></li>");
 	}
-	if (pageType == "FighterCtrler" || pageType == "FighterMcCtrler" || pageType == "FighterEffectCtrl" || pageType == "FighterVoiceCtrler" || pageType == "FighterBuffCtrler")
+	if (pageType == "ctrler" || pageType == "FighterCtrler" || pageType == "FighterMcCtrler" || pageType == "FighterEffectCtrl" || pageType == "FighterVoiceCtrler" || pageType == "FighterBuffCtrler")
 	{
 	document.writeln("						<li class=\'active has-dropdown\'>");
 	}
@@ -27,7 +27,7 @@ function setNav (pageType)
 	{
 	document.writeln("						<li class=\'has-dropdown\'>");
 	}
-	document.writeln("							<a href=\'javascript:void(0);\'>人物控制器</a>");
+	document.writeln("							<a href=\'ctrler.html\'>人物控制器</a>");
 	document.writeln("							<ul class=\'dropdown\'>");
 	if (pageType == "FighterCtrler")
 	{
@@ -87,7 +87,7 @@ function setNav (pageType)
 	{
 	document.writeln("						<li><a href=\'AssisiterCtrler.html\'>辅助人物控制器</a></li>");
 	}
-	if (pageType == "FighterHitModel" || pageType == "HitVO")
+	if (pageType == "models" || pageType == "FighterHitModel" || pageType == "HitVO")
 	{
 	document.writeln("						<li class=\'active has-dropdown\'>");
 	}
@@ -95,7 +95,7 @@ function setNav (pageType)
 	{
 	document.writeln("						<li class=\'has-dropdown\'>");
 	}
-	document.writeln("							<a href=\'javascript:void(0);\'>模型</a>");
+	document.writeln("							<a href=\'models.html\'>模型</a>");
 	document.writeln("							<ul class=\'dropdown\'>");
 	if (pageType == "FighterHitModel")
 	{
@@ -115,7 +115,7 @@ function setNav (pageType)
 	}
 	document.writeln("							</ul>");
 	document.writeln("						</li>");
-	if (pageType == "Assister" || pageType == "FighterAction" || pageType == "FighterMain" || pageType == "FighterMC")
+	if (pageType == "fighter" || pageType == "Assister" || pageType == "FighterAction" || pageType == "FighterMain" || pageType == "FighterMC")
 	{
 	document.writeln("						<li class=\'active has-dropdown\'>");
 	}
@@ -123,7 +123,7 @@ function setNav (pageType)
 	{
 	document.writeln("						<li class=\'has-dropdown\'>");
 	}
-	document.writeln("							<a href=\'javascript:void(0);\'>人物杂项</a>");
+	document.writeln("							<a href=\'fighter.html\'>人物杂项</a>");
 	document.writeln("							<ul class=\'dropdown\'>");
 	if (pageType == "Assister")
 	{
